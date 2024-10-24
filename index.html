@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keo is an sigma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Keos thingy i forgot to name</h1>
+
+    <div class="controls">
+        <label for="gridX">Grid Size X:</label>
+        <input type="number" id="gridX" value="10" min="2">
+
+        <label for="gridY">Grid Size Y:</label>
+        <input type="number" id="gridY" value="10" min="2">
+    </div>
+
+    <div class="buttons">
+        <button id="generateButton">Generate Maze</button>
+        <button id="downloadButton">Download as SVG</button>
+    </div>
+
+    <canvas id="mazeCanvas"></canvas>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three-fbx-exporter"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
